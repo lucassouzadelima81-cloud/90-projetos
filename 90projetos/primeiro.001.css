@@ -1,0 +1,47 @@
+*{
+  font-family: "poppins", sans-serif;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    & .imagens7{
+        border-radius: 1000px;
+    }
+}
+.titulo{
+    & .sube-titulo{
+        display: flex;
+        justify-content: center;
+    }
+    & .t1{
+        display: flex;
+        justify-content: center;
+    }
+}
+.banners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+} 
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    & a{
+        border-radius: 10px;
+        color: #fff;
+        background-color: blue;
+        padding: 10px 40px;
+    }
+}
+.final{
+    display: flex;
+    justify-content: center;
+    
+    & .finais{
+        display: flex;
+        gap: 20px;
+    }
+}
